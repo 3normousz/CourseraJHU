@@ -1,0 +1,107 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    margin: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: #D3D3D3;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.container {
+    border: 2px solid black;
+}
+
+.firstTitle, .secondTitle, .thirdTitle {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 2px 2px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+
+}
+
+.firstTitle {
+    background-color: #DAF7A6;
+}
+
+.secondTitle {
+    background-color: #FFC300;
+}
+
+.thirdTitle {
+    background-color: #B0BEC5;
+}
+
+.content {
+    padding: 15px;
+    padding-top: 50px;
+    background-color: #D3D3D3;
+    color: black;
+    margin: 0px;
+    height: 200px;
+}
+
+.row {
+    width: 100%;
+}
+
+/*large device*/
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/*medium device*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/*small device*/
+@media (max-width: 767px) {
+    .colmn-sd-12 {
+        float: left;
+        width: 100%;
+    }
+}
