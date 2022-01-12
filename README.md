@@ -1,1 +1,1 @@
-# CourseraJHP
+# CourseraJHU
